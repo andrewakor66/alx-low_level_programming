@@ -4,7 +4,7 @@
  * puts2 -> puts2 function
  * @str: str parameter
  */
-void puts2(char *str);
+void puts2(char *str)
 {
 	int n, i;
 
