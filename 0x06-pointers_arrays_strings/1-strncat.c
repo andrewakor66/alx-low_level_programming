@@ -3,7 +3,7 @@
 
 /**
  * _strncat -> function to append some charx
- * @dest: fist param
+ * @dest: first param
  * @src: second param
  * @n: 3rd param
  * Return: string
