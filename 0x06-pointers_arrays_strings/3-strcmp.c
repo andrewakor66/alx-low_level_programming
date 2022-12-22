@@ -2,15 +2,23 @@
 #include "string"
 
 /**
- * _strcmp -> for comparing purpose
- * @s1: param1
- * @s2: param2
- * Return: integer
+ * _strcmp - compares two strings values
+ * @s1: string 1
+ * @s2: string 2
+ * Return: the difference in s1 and s2
  */
 int _strcmp(char *s1, char *s2)
 {
-	int result;
+	int i;
 
-	result = strcmp(s1, s2);
-	return (result);
+	i = 0;
+	while (s1[i] != '\0' && s2[i] != '\0')
+	{
+		if (s1[i] != s2[i])
+		{
+			return (s1[i] - s2[i]);
+		}
+	i++;
+	}
+	return (0);
 }
