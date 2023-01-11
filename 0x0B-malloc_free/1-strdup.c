@@ -33,7 +33,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < lens; i++)
+	for (i = 0; i < len; i++)
 	{
 		nsrt[i] = str[i];
 	}
